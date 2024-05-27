@@ -18,6 +18,7 @@ namespace Gasolinera
     {
         int idBomba = 0;
         SerialPort port;
+        private List<Button> buttonList;
 
         public InterfazBomba()
         {
@@ -31,16 +32,32 @@ namespace Gasolinera
 
         private void InterfazBomba_Load(object sender, EventArgs e)
         {
-            btn_Num0.Click += Boton_Click;
-            btn_Num1.Click += Boton_Click;
-            btn_Num2.Click += Boton_Click;
-            btn_Num3.Click += Boton_Click;
-            btn_Num4.Click += Boton_Click;
-            btn_Num5.Click += Boton_Click;
-            btn_Num6.Click += Boton_Click;
-            btn_Num7.Click += Boton_Click;
-            btn_Num8.Click += Boton_Click;
-            btn_Num9.Click += Boton_Click;
+            this.Text = "Bomba de " + Index.listaBombas[idBomba].TipoGasolina;
+
+            buttonList = new List<Button>
+            {
+                btn_Num0,
+                btn_Num1,
+                btn_Num2,
+                btn_Num3,
+                btn_Num4,
+                btn_Num5,
+                btn_Num6,
+                btn_Num7,
+                btn_Num8,
+                btn_Num9,
+            };
+
+            foreach(Button boton in buttonList)
+            {
+                boton.Click += Boton_Click;
+            }
+
+            panel2.BackColor = Color.FromArgb(100, Color.Black);
+            //panel1.BackColor = Color.FromArgb(75, Color.Black);
+            this.BackgroundImage = Properties.Resources.fondo_bomba;
+            this.BackgroundImageLayout = ImageLayout.Stretch;
+
 
             lbl_Bomba.Text = "Bomba de " + Index.listaBombas[idBomba].TipoGasolina;
 
@@ -49,8 +66,8 @@ namespace Gasolinera
 
             lbl_Precio.Text = "Q" + precioGasolina;
 
-            port = new SerialPort("COM3", 9600); 
-            port.Open();
+            //port = new SerialPort("COM3", 9600); 
+            //port.Open();
         }
 
         private void Boton_Click(object sender, EventArgs e)
@@ -79,36 +96,46 @@ namespace Gasolinera
 
         private void btn_LlenarBomba_Click(object sender, EventArgs e)
         {
-            if (cbx_TanqueLleno.Checked ||
-                (!tbx_NombreCliente.Text.Equals("") &&
-                !tbx_CantidadLitros.Text.Equals("")))
+            if (cbx_TanqueLleno.Checked || !tbx_CantidadLitros.Text.Equals(""))
             {
-                string tipoCompra = "";
-                if (cbx_TanqueLleno.Checked)
+                if(!tbx_NombreCliente.Text.Equals(""))
                 {
-                    tipoCompra = "Tanque lleno";
-                    Index.listaBombas[idBomba].ContadorBombaLlena += 1;
+
+                    string tipoCompra = "";
+                    if (cbx_TanqueLleno.Checked)
+                    {
+                        tipoCompra = "Tanque lleno";
+                        Index.listaBombas[idBomba].ContadorBombaLlena += 1;
+                    }
+                    else
+                    {
+                        tipoCompra = "Prepago";
+                        Index.listaBombas[idBomba].ContadorPrepago += 1;
+                    }
+
+                    Index.listaCompras.Add(
+                        new Compra(
+                            tbx_NombreCliente.Text,
+                            Index.listaBombas[idBomba].TipoGasolina,
+                            Index.listaBombas[idBomba].PrecioGasolina,
+                            tipoCompra
+                            ));
+
                 }
                 else
                 {
-                    tipoCompra = "Prepago";
-                    Index.listaBombas[idBomba].ContadorPrepago += 1;
+                    MessageBox.Show("El nombre no puede estar vacio");
                 }
-
-                Index.listaCompras.Add(new Compra(
-                                        tbx_NombreCliente.Text,
-                                        Index.listaBombas[idBomba].TipoGasolina,
-                                        Index.listaBombas[idBomba].PrecioGasolina,
-                                        tipoCompra));
             }
             else
             {
                 if (tbx_NombreCliente.Text.Equals(""))
                 {
-                    MessageBox.Show("El nombre no puede estar vacio");
+                    MessageBox.Show("Escoja un tipo de llenado: Tanque lleno o prepago");
                 }
             }
         }
+
         int command;
 
         private void on_Click(object sender, EventArgs e)
@@ -116,16 +143,42 @@ namespace Gasolinera
 
             command = 1;
 
-            var jsonCommand = JsonConvert.SerializeObject(new { led = command });
-            port.WriteLine(jsonCommand);
+            //var jsonCommand = JsonConvert.SerializeObject(new { led = command });
+            //port.WriteLine(jsonCommand);
         }
 
         private void off_Click(object sender, EventArgs e)
         {
             command = 0;
 
-            var jsonCommand = JsonConvert.SerializeObject(new { led = command });
-            port.WriteLine(jsonCommand);
+            //var jsonCommand = JsonConvert.SerializeObject(new { led = command });
+            //port.WriteLine(jsonCommand);
+        }
+
+        private void cbx_TanqueLleno_Click(object sender, EventArgs e)
+        {
+            if (cbx_TanqueLleno.Checked)
+            {
+                tbx_CantidadLitros.Enabled = false;
+                btn_Clear.Enabled = false;
+                btn_DEL.Enabled = false;
+
+                foreach(Button boton in buttonList)
+                {
+                    boton.Enabled = false;
+                }
+            }
+            else
+            {
+                tbx_CantidadLitros.Enabled = true;
+                btn_Clear.Enabled = true;
+                btn_DEL.Enabled = true;
+
+                foreach (Button boton in buttonList)
+                {
+                    boton.Enabled = true;
+                }
+            }
         }
     }
 }

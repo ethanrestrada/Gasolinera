@@ -22,6 +22,9 @@ namespace Gasolinera
 
         private void InformeDatos_Load(object sender, EventArgs e)
         {
+            this.BackgroundImage = Properties.Resources.fondo_informe;
+            this.BackgroundImageLayout = ImageLayout.Stretch;
+
             dgv_Compras.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgv_Bombas.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgv_Bombas.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
@@ -36,7 +39,7 @@ namespace Gasolinera
                 dgv_Compras.Columns["TotalCompra"].HeaderText = "Total de compra";
             }
 
-            if(Index.listaBombas.Count > 0)
+            if (Index.listaBombas.Count > 0)
             {
                 dgv_Bombas.DataSource = Index.listaBombas;
                 dgv_Bombas.Columns["ID"].HeaderText = "#";

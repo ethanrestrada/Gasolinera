@@ -55,13 +55,18 @@
             this.cbx_TanqueLleno = new System.Windows.Forms.CheckBox();
             this.on = new System.Windows.Forms.Button();
             this.off = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // lbl_Bomba
             // 
+            this.lbl_Bomba.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Bomba.Font = new System.Drawing.Font("Poppins", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Bomba.Location = new System.Drawing.Point(26, 23);
+            this.lbl_Bomba.ForeColor = System.Drawing.Color.White;
+            this.lbl_Bomba.Location = new System.Drawing.Point(32, 15);
             this.lbl_Bomba.Name = "lbl_Bomba";
             this.lbl_Bomba.Size = new System.Drawing.Size(244, 29);
             this.lbl_Bomba.TabIndex = 0;
@@ -171,7 +176,7 @@
             // 
             // panel1
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.btn_Clear);
             this.panel1.Controls.Add(this.btn_DEL);
             this.panel1.Controls.Add(this.btn_Num0);
@@ -185,7 +190,7 @@
             this.panel1.Controls.Add(this.btn_Num6);
             this.panel1.Controls.Add(this.btn_Num4);
             this.panel1.Controls.Add(this.btn_Num5);
-            this.panel1.Location = new System.Drawing.Point(26, 73);
+            this.panel1.Location = new System.Drawing.Point(32, 85);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(244, 314);
             this.panel1.TabIndex = 11;
@@ -225,8 +230,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Poppins", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(485, 26);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(493, 29);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(118, 26);
             this.label2.TabIndex = 12;
@@ -235,8 +242,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(324, 73);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(330, 65);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(168, 28);
             this.label3.TabIndex = 13;
@@ -245,7 +254,7 @@
             // tbx_NombreCliente
             // 
             this.tbx_NombreCliente.Font = new System.Drawing.Font("Poppins", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbx_NombreCliente.Location = new System.Drawing.Point(329, 109);
+            this.tbx_NombreCliente.Location = new System.Drawing.Point(335, 101);
             this.tbx_NombreCliente.Multiline = true;
             this.tbx_NombreCliente.Name = "tbx_NombreCliente";
             this.tbx_NombreCliente.Size = new System.Drawing.Size(335, 35);
@@ -254,7 +263,7 @@
             // btn_LlenarBomba
             // 
             this.btn_LlenarBomba.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_LlenarBomba.Location = new System.Drawing.Point(427, 195);
+            this.btn_LlenarBomba.Location = new System.Drawing.Point(433, 187);
             this.btn_LlenarBomba.Name = "btn_LlenarBomba";
             this.btn_LlenarBomba.Size = new System.Drawing.Size(237, 37);
             this.btn_LlenarBomba.TabIndex = 15;
@@ -265,8 +274,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(324, 261);
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(330, 253);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(137, 25);
             this.label4.TabIndex = 16;
@@ -275,8 +286,10 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(324, 303);
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(330, 295);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(56, 25);
             this.label5.TabIndex = 17;
@@ -285,8 +298,10 @@
             // lbl_Precio
             // 
             this.lbl_Precio.AutoSize = true;
+            this.lbl_Precio.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Precio.Font = new System.Drawing.Font("Poppins", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Precio.Location = new System.Drawing.Point(601, 26);
+            this.lbl_Precio.ForeColor = System.Drawing.Color.White;
+            this.lbl_Precio.Location = new System.Drawing.Point(607, 29);
             this.lbl_Precio.Name = "lbl_Precio";
             this.lbl_Precio.Size = new System.Drawing.Size(63, 26);
             this.lbl_Precio.TabIndex = 18;
@@ -294,7 +309,7 @@
             // 
             // tbx_Despachado
             // 
-            this.tbx_Despachado.Location = new System.Drawing.Point(564, 261);
+            this.tbx_Despachado.Location = new System.Drawing.Point(570, 253);
             this.tbx_Despachado.Multiline = true;
             this.tbx_Despachado.Name = "tbx_Despachado";
             this.tbx_Despachado.ReadOnly = true;
@@ -303,7 +318,7 @@
             // 
             // tbx_Litros
             // 
-            this.tbx_Litros.Location = new System.Drawing.Point(564, 303);
+            this.tbx_Litros.Location = new System.Drawing.Point(570, 295);
             this.tbx_Litros.Multiline = true;
             this.tbx_Litros.Name = "tbx_Litros";
             this.tbx_Litros.ReadOnly = true;
@@ -313,17 +328,20 @@
             // cbx_TanqueLleno
             // 
             this.cbx_TanqueLleno.AutoSize = true;
+            this.cbx_TanqueLleno.BackColor = System.Drawing.Color.Transparent;
             this.cbx_TanqueLleno.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbx_TanqueLleno.Location = new System.Drawing.Point(540, 156);
+            this.cbx_TanqueLleno.ForeColor = System.Drawing.Color.White;
+            this.cbx_TanqueLleno.Location = new System.Drawing.Point(546, 148);
             this.cbx_TanqueLleno.Name = "cbx_TanqueLleno";
             this.cbx_TanqueLleno.Size = new System.Drawing.Size(124, 29);
             this.cbx_TanqueLleno.TabIndex = 21;
             this.cbx_TanqueLleno.Text = "Tanque lleno";
-            this.cbx_TanqueLleno.UseVisualStyleBackColor = true;
+            this.cbx_TanqueLleno.UseVisualStyleBackColor = false;
+            this.cbx_TanqueLleno.Click += new System.EventHandler(this.cbx_TanqueLleno_Click);
             // 
             // on
             // 
-            this.on.Location = new System.Drawing.Point(589, 364);
+            this.on.Location = new System.Drawing.Point(595, 356);
             this.on.Name = "on";
             this.on.Size = new System.Drawing.Size(75, 23);
             this.on.TabIndex = 22;
@@ -333,7 +351,7 @@
             // 
             // off
             // 
-            this.off.Location = new System.Drawing.Point(508, 364);
+            this.off.Location = new System.Drawing.Point(514, 356);
             this.off.Name = "off";
             this.off.Size = new System.Drawing.Size(75, 23);
             this.off.TabIndex = 23;
@@ -341,36 +359,59 @@
             this.off.UseVisualStyleBackColor = true;
             this.off.Click += new System.EventHandler(this.off_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(33, 54);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(164, 28);
+            this.label1.TabIndex = 24;
+            this.label1.Text = "Cantidad de litros:";
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.lbl_Precio);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.tbx_NombreCliente);
+            this.panel2.Controls.Add(this.off);
+            this.panel2.Controls.Add(this.lbl_Bomba);
+            this.panel2.Controls.Add(this.on);
+            this.panel2.Controls.Add(this.panel1);
+            this.panel2.Controls.Add(this.cbx_TanqueLleno);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.tbx_Litros);
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.tbx_Despachado);
+            this.panel2.Controls.Add(this.btn_LlenarBomba);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.label5);
+            this.panel2.Location = new System.Drawing.Point(12, 11);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(707, 416);
+            this.panel2.TabIndex = 25;
+            // 
             // InterfazBomba
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
-            this.ClientSize = new System.Drawing.Size(692, 408);
-            this.Controls.Add(this.off);
-            this.Controls.Add(this.on);
-            this.Controls.Add(this.cbx_TanqueLleno);
-            this.Controls.Add(this.tbx_Litros);
-            this.Controls.Add(this.tbx_Despachado);
-            this.Controls.Add(this.lbl_Precio);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.btn_LlenarBomba);
-            this.Controls.Add(this.tbx_NombreCliente);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.lbl_Bomba);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(731, 436);
+            this.Controls.Add(this.panel2);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(708, 447);
+            this.MaximumSize = new System.Drawing.Size(747, 475);
             this.Name = "InterfazBomba";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "InterfazBomba";
             this.Load += new System.EventHandler(this.InterfazBomba_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -403,5 +444,7 @@
         private System.Windows.Forms.CheckBox cbx_TanqueLleno;
         private System.Windows.Forms.Button on;
         private System.Windows.Forms.Button off;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel2;
     }
 }
