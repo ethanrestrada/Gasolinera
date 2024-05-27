@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading;
+using System.IO;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Newtonsoft.Json;
@@ -34,7 +35,32 @@ namespace Gasolinera
         {
             idBomba = ID;
         }
+        private void GuardarCompraEnCSV(Compra compra)
+        {
+            try
+            {
+                // Ruta común para guardar el archivo CSV en la carpeta de documentos del usuario
+                string carpetaDocumentos = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+                string rutaArchivo = Path.Combine(carpetaDocumentos, "compras.csv");
+                bool archivoExiste = File.Exists(rutaArchivo);
 
+                using (StreamWriter sw = new StreamWriter(rutaArchivo, true))
+                {
+                    if (!archivoExiste)
+                    {
+                        // Escribe la cabecera si el archivo no existe
+                        sw.WriteLine("ID,Nombre,TipoGasolina,PrecioGasolina,TipoCompra,TotalCompra,Hora,Fecha");
+                    }
+
+                    // Escribe la información de la compra
+                    sw.WriteLine($"{compra.ID},{compra.Nombre},{compra.TipoGasolina},{compra.PrecioGasolina},{compra.TipoCompra},{compra.TotalCompra},{compra.Hora},{compra.Fecha}");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al guardar la compra en el archivo CSV: {ex.Message}");
+            }
+        }
         private void InterfazBomba_Load(object sender, EventArgs e)
         {
             // Se cambia el texto del form
@@ -137,15 +163,15 @@ namespace Gasolinera
                         tipoCompra = "Prepago";
                         Index.listaBombas[idBomba].ContadorPrepago += 1;
                     }
-
+                    var compra = new Compra(
+                    tbx_NombreCliente.Text,
+                    Index.listaBombas[idBomba].TipoGasolina,
+                    Index.listaBombas[idBomba].PrecioGasolina,
+                    tipoCompra);
                     // Se agrega la venta a la lista de compras
                     Index.listaCompras.Add(
-                        new Compra(
-                            tbx_NombreCliente.Text,
-                            Index.listaBombas[idBomba].TipoGasolina,
-                            Index.listaBombas[idBomba].PrecioGasolina,
-                            tipoCompra
-                            ));
+                        compra);
+                    GuardarCompraEnCSV(compra);
 
                     //int command;
                     //command = 1;
