@@ -35,30 +35,27 @@ namespace Gasolinera
         {
             idBomba = ID;
         }
-        private void GuardarCompraEnCSV(Compra compra)
+        private void GuardarCompraEnJson()
         {
             try
             {
                 // Ruta común para guardar el archivo CSV en la carpeta de documentos del usuario
-                string carpetaDocumentos = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-                string rutaArchivo = Path.Combine(carpetaDocumentos, "compras.csv");
-                bool archivoExiste = File.Exists(rutaArchivo);
+                string rutaBase = AppDomain.CurrentDomain.BaseDirectory;
+                string carpetaDocumentos = rutaBase.Substring(0, rutaBase.LastIndexOf("\\bin\\Debug"));
 
-                using (StreamWriter sw = new StreamWriter(rutaArchivo, true))
-                {
-                    if (!archivoExiste)
-                    {
-                        // Escribe la cabecera si el archivo no existe
-                        sw.WriteLine("ID,Nombre,TipoGasolina,PrecioGasolina,TipoCompra,TotalCompra,Hora,Fecha");
-                    }
+                // Quitamos la barra invertida al principio de la segunda parte de la ruta
+                string rutaArchivo = Path.Combine(carpetaDocumentos, @"CarpetaCompras\compras.json");
 
-                    // Escribe la información de la compra
-                    sw.WriteLine($"{compra.ID},{compra.Nombre},{compra.TipoGasolina},{compra.PrecioGasolina},{compra.TipoCompra},{compra.TotalCompra},{compra.Hora},{compra.Fecha}");
-                }
+                string contenidoJson = File.ReadAllText(rutaArchivo);
+
+                string listaJson = JsonConvert.SerializeObject(Index.listaCompras, Formatting.Indented);
+
+                File.WriteAllText(rutaArchivo, listaJson);
+
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error al guardar la compra en el archivo CSV: {ex.Message}");
+                Console.WriteLine($"Error al guardar la compra en el archivo JSON: {ex.Message}");
             }
         }
         private void InterfazBomba_Load(object sender, EventArgs e)
@@ -163,15 +160,23 @@ namespace Gasolinera
                         tipoCompra = "Prepago";
                         Index.listaBombas[idBomba].ContadorPrepago += 1;
                     }
+
+                    // Objeto compra
                     var compra = new Compra(
-                    tbx_NombreCliente.Text,
-                    Index.listaBombas[idBomba].TipoGasolina,
-                    Index.listaBombas[idBomba].PrecioGasolina,
-                    tipoCompra);
+                        tbx_NombreCliente.Text,
+                        Index.listaBombas[idBomba].TipoGasolina,
+                        Index.listaBombas[idBomba].PrecioGasolina,
+                        tipoCompra
+                        );
+
+                    //Actualizar hora y fecha de compra
+                    compra.Hora = DateTime.Now.ToString("h:mm tt");
+                    compra.Fecha = DateTime.Now.ToString("yyyy-MM-dd");
+
                     // Se agrega la venta a la lista de compras
-                    Index.listaCompras.Add(
-                        compra);
-                    GuardarCompraEnCSV(compra);
+                    Index.listaCompras.Add(compra);
+                    
+                    GuardarCompraEnJson();
 
                     //int command;
                     //command = 1;

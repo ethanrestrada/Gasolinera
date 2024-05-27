@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Text.Json;
 using System.IO;
+using Newtonsoft.Json;
 
 namespace Gasolinera
 {
@@ -27,6 +28,49 @@ namespace Gasolinera
         // Crear lista de registros de compras
         public static List<Compra> listaCompras = new List<Compra>();
 
+        private void CargarComprasDesdeJson()
+        {
+            // Obtiene la ruta del proyecto
+            string rutaBase = AppDomain.CurrentDomain.BaseDirectory;
+            string carpetaDocumentos = rutaBase.Substring(0, rutaBase.LastIndexOf("\\bin\\Debug"));
+
+            // Combinar la ruta del proyecto con la ruta del archivo json
+            string rutaArchivo = Path.Combine(carpetaDocumentos, @"CarpetaCompras\compras.json");
+
+            // Si el archivo existe
+            if (File.Exists(rutaArchivo))
+            {
+                //Almacena el contenido del archivo JSON
+                string contenidoJson = File.ReadAllText(rutaArchivo);
+
+                // Si el archivo JSON no esta vacio
+                if (!string.IsNullOrWhiteSpace(contenidoJson))
+                {
+                    // Convertir el contenido JSON en una lista de objetos C#
+                    List<Compra> listaComprasJson = JsonConvert.DeserializeObject<List<Compra>>(contenidoJson);
+
+                    // Verificar si la lista no está vacía
+                    if (listaComprasJson != null && listaComprasJson.Count > 0)
+                    {
+                        // Guardar los datos del JSON en listaCompras
+                        foreach (var compra in listaComprasJson)
+                        {
+                            Compra compraOBJ = new Compra(
+                                compra.Nombre, 
+                                compra.TipoGasolina, 
+                                compra.PrecioGasolina, 
+                                compra.TipoCompra
+                                );
+                            compraOBJ.Hora = compra.Hora;
+                            compraOBJ.Fecha = compra.Fecha;
+
+                            listaCompras.Add(compraOBJ);
+                        }
+                    }
+                }
+            }
+        }
+
         public Index()
         {
             InitializeComponent();
@@ -35,6 +79,7 @@ namespace Gasolinera
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            CargarComprasDesdeJson();
             // Asignar eventos clic a los botones de bombas
             btn_Bomba1.Click += Boton_Click;
             btn_Bomba2.Click += Boton_Click;

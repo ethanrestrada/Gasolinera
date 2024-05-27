@@ -19,6 +19,11 @@ namespace Gasolinera
         public string Hora { get; set; }
         public string Fecha { get; set; }
 
+        public Compra()
+        {
+            variableID = 0;
+        }
+
         public Compra(string nombre, string tipoGasolina, double precioGasolina, string tipoCompra) 
         {
             variableID = ++variableID;
@@ -27,8 +32,11 @@ namespace Gasolinera
             this.TipoGasolina = tipoGasolina;
             this.PrecioGasolina = precioGasolina;
             this.TipoCompra = tipoCompra;
-            Hora = DateTime.Now.ToString("h:mm tt");
-            Fecha = DateTime.Now.ToString("yyyy-MM-dd");
+            
+        }
+        public void setID(int nuevoID)
+        {
+            this.ID = nuevoID;
         }
     }
 }

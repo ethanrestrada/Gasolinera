@@ -1,0 +1,52 @@
+[
+  {
+    "ID": 1,
+    "Nombre": "dsada",
+    "TipoGasolina": "Super",
+    "PrecioGasolina": 11.4,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:39 PM",
+    "Fecha": "2024-05-27"
+  },
+  {
+    "ID": 2,
+    "Nombre": "dadsa",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 11.55,
+    "TipoCompra": "Prepago",
+    "TotalCompra": 0.0,
+    "Hora": "12:39 PM",
+    "Fecha": "2024-05-27"
+  },
+  {
+    "ID": 3,
+    "Nombre": "davc",
+    "TipoGasolina": "Super",
+    "PrecioGasolina": 11.4,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:39 PM",
+    "Fecha": "2024-05-27"
+  },
+  {
+    "ID": 4,
+    "Nombre": "hfhhf",
+    "TipoGasolina": "Diesel",
+    "PrecioGasolina": 10.95,
+    "TipoCompra": "Prepago",
+    "TotalCompra": 0.0,
+    "Hora": "12:39 PM",
+    "Fecha": "2024-05-27"
+  },
+  {
+    "ID": 5,
+    "Nombre": "dasvcx",
+    "TipoGasolina": "Super",
+    "PrecioGasolina": 11.4,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:43 PM",
+    "Fecha": "2024-05-27"
+  }
+]

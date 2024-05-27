@@ -10,6 +10,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Text.Json;
+using Newtonsoft.Json;
 
 namespace Gasolinera
 {
@@ -22,7 +23,7 @@ namespace Gasolinera
 
         private void InformeDatos_Load(object sender, EventArgs e)
         {
-            // Se le pone una imagen al fondo del form
+            //Se le pone una imagen al fondo del form
             this.BackgroundImage = Properties.Resources.fondo_informe;
             this.BackgroundImageLayout = ImageLayout.Stretch;
 
@@ -54,52 +55,7 @@ namespace Gasolinera
                 dgv_Bombas.Columns["ContadorPrepago"].HeaderText = "Abastecimiento Prepago";
                 dgv_Bombas.Columns["ContadorBombaLlena"].HeaderText = "Abastecimiento Tanque lleno";
             }
-            CargarComprasDesdeCSV();
-        }
-        private void CargarComprasDesdeCSV()
-        {
-            string carpetaDocumentos = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-            string rutaArchivo = Path.Combine(carpetaDocumentos, "compras.csv");
-
-            if (File.Exists(rutaArchivo))
-            {
-                DataTable dataTable = new DataTable();
-                using (StreamReader sr = new StreamReader(rutaArchivo))
-                {
-                    bool primeraLinea = true;
-                    while (!sr.EndOfStream)
-                    {
-                        string linea = sr.ReadLine();
-                        string[] valores = linea.Split(',');
-
-                        if (primeraLinea)
-                        {
-                            foreach (string columna in valores)
-                            {
-                                dataTable.Columns.Add(columna);
-                            }
-                            primeraLinea = false;
-                        }
-                        else
-                        {
-                            dataTable.Rows.Add(valores);
-                        }
-                    }
-                }
-
-                dgv_Compras.DataSource = dataTable;
-
-                // Personalizar los encabezados de columna si es necesario
-                dgv_Compras.Columns["ID"].HeaderText = "#";
-                dgv_Compras.Columns["TipoGasolina"].HeaderText = "Tipo de gasolina";
-                dgv_Compras.Columns["PrecioGasolina"].HeaderText = "Precio de gasolina";
-                dgv_Compras.Columns["TipoCompra"].HeaderText = "Tipo de Compra";
-                dgv_Compras.Columns["TotalCompra"].HeaderText = "Total de compra";
-            }
-            else
-            {
-                MessageBox.Show("No se encontró el archivo de compras.");
-            }
+            //CargarComprasDesdeCSV();
         }
     }
 }
