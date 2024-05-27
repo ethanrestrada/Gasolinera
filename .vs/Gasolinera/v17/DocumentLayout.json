@@ -3,19 +3,15 @@
   "WorkspaceRootPath": "D:\\Programming\\C#\\Gasolinera\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|d:\\programming\\c#\\gasolinera\\gasolinera\\informedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|solutionrelative:gasolinera\\informedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|d:\\programming\\c#\\gasolinera\\gasolinera\\informedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|solutionrelative:gasolinera\\informedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|d:\\programming\\c#\\gasolinera\\gasolinera\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|solutionrelative:gasolinera\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|d:\\programming\\c#\\gasolinera\\gasolinera\\informedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|solutionrelative:gasolinera\\informedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|d:\\programming\\c#\\gasolinera\\gasolinera\\interfazbomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|D:\\Programming\\C#\\Gasolinera\\gasolinera\\interfazbomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|solutionrelative:gasolinera\\interfazbomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,51 +30,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cs",
-              "DocumentMoniker": "D:\\Programming\\C#\\Gasolinera\\Gasolinera\\Index.cs",
-              "RelativeDocumentMoniker": "Gasolinera\\Index.cs",
-              "ToolTip": "D:\\Programming\\C#\\Gasolinera\\Gasolinera\\Index.cs",
-              "RelativeToolTip": "Gasolinera\\Index.cs",
-              "ViewState": "AQIAAAoAAAAAspmZmZkGwBgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T22:49:48.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "InformeDatos.cs",
               "DocumentMoniker": "D:\\Programming\\C#\\Gasolinera\\Gasolinera\\InformeDatos.cs",
               "RelativeDocumentMoniker": "Gasolinera\\InformeDatos.cs",
               "ToolTip": "D:\\Programming\\C#\\Gasolinera\\Gasolinera\\InformeDatos.cs",
               "RelativeToolTip": "Gasolinera\\InformeDatos.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAUwDIAAAAJAAAA",
+              "ViewState": "AQIAAAEAAAAABgAAAADovzoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T23:35:50.785Z",
+              "WhenOpened": "2024-05-27T03:51:18.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "InformeDatos.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Programming\\C#\\Gasolinera\\Gasolinera\\InformeDatos.cs",
               "RelativeDocumentMoniker": "Gasolinera\\InformeDatos.cs",
               "ToolTip": "D:\\Programming\\C#\\Gasolinera\\Gasolinera\\InformeDatos.cs [Dise\u00F1o]",
               "RelativeToolTip": "Gasolinera\\InformeDatos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T23:29:01.501Z",
+              "WhenOpened": "2024-05-27T03:51:16.461Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "InterfazBomba.cs",
               "DocumentMoniker": "D:\\Programming\\C#\\Gasolinera\\Gasolinera\\InterfazBomba.cs",
               "RelativeDocumentMoniker": "Gasolinera\\InterfazBomba.cs",
               "ToolTip": "D:\\Programming\\C#\\Gasolinera\\Gasolinera\\InterfazBomba.cs",
               "RelativeToolTip": "Gasolinera\\InterfazBomba.cs",
-              "ViewState": "AQIAAJ4AAAAAfGZmZiYlwFAAAAAJAAAA",
+              "ViewState": "AQIAACYAAAAA7v////8TwLIAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T23:03:40.763Z",
               "EditorCaption": ""

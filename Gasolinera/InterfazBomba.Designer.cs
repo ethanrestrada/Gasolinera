@@ -53,10 +53,10 @@
             this.tbx_Despachado = new System.Windows.Forms.TextBox();
             this.tbx_Litros = new System.Windows.Forms.TextBox();
             this.cbx_TanqueLleno = new System.Windows.Forms.CheckBox();
-            this.on = new System.Windows.Forms.Button();
-            this.off = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.tb_Total = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -339,26 +339,6 @@
             this.cbx_TanqueLleno.UseVisualStyleBackColor = false;
             this.cbx_TanqueLleno.Click += new System.EventHandler(this.cbx_TanqueLleno_Click);
             // 
-            // on
-            // 
-            this.on.Location = new System.Drawing.Point(595, 356);
-            this.on.Name = "on";
-            this.on.Size = new System.Drawing.Size(75, 23);
-            this.on.TabIndex = 22;
-            this.on.Text = "ON";
-            this.on.UseVisualStyleBackColor = true;
-            this.on.Click += new System.EventHandler(this.on_Click);
-            // 
-            // off
-            // 
-            this.off.Location = new System.Drawing.Point(514, 356);
-            this.off.Name = "off";
-            this.off.Size = new System.Drawing.Size(75, 23);
-            this.off.TabIndex = 23;
-            this.off.Text = "OFF";
-            this.off.UseVisualStyleBackColor = true;
-            this.off.Click += new System.EventHandler(this.off_Click);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -373,12 +353,12 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.tb_Total);
+            this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.lbl_Precio);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.tbx_NombreCliente);
-            this.panel2.Controls.Add(this.off);
             this.panel2.Controls.Add(this.lbl_Bomba);
-            this.panel2.Controls.Add(this.on);
             this.panel2.Controls.Add(this.panel1);
             this.panel2.Controls.Add(this.cbx_TanqueLleno);
             this.panel2.Controls.Add(this.label2);
@@ -392,6 +372,27 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(707, 416);
             this.panel2.TabIndex = 25;
+            // 
+            // tb_Total
+            // 
+            this.tb_Total.Location = new System.Drawing.Point(570, 336);
+            this.tb_Total.Multiline = true;
+            this.tb_Total.Name = "tb_Total";
+            this.tb_Total.ReadOnly = true;
+            this.tb_Total.Size = new System.Drawing.Size(100, 25);
+            this.tb_Total.TabIndex = 26;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(330, 336);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(166, 25);
+            this.label6.TabIndex = 25;
+            this.label6.Text = "Total de la venta (Q):";
             // 
             // InterfazBomba
             // 
@@ -442,9 +443,9 @@
         private System.Windows.Forms.TextBox tbx_Despachado;
         private System.Windows.Forms.TextBox tbx_Litros;
         private System.Windows.Forms.CheckBox cbx_TanqueLleno;
-        private System.Windows.Forms.Button on;
-        private System.Windows.Forms.Button off;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.TextBox tb_Total;
+        private System.Windows.Forms.Label label6;
     }
 }

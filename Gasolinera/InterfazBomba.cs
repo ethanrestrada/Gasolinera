@@ -16,8 +16,11 @@ namespace Gasolinera
 {
     public partial class InterfazBomba : Form
     {
+        // Indice de bomba dentro de la lista
         int idBomba = 0;
+        // Puerto para arduino
         SerialPort port;
+        // Lista de botones del teclado
         private List<Button> buttonList;
 
         public InterfazBomba()
@@ -25,6 +28,8 @@ namespace Gasolinera
             InitializeComponent();
         }
 
+        // Funcion para obtener el ID traido
+        // desde el index
         public void IndiceBomba(int ID)
         {
             idBomba = ID;
@@ -32,8 +37,10 @@ namespace Gasolinera
 
         private void InterfazBomba_Load(object sender, EventArgs e)
         {
+            // Se cambia el texto del form
             this.Text = "Bomba de " + Index.listaBombas[idBomba].TipoGasolina;
 
+            // Se llena la lista con los botones del teclado
             buttonList = new List<Button>
             {
                 btn_Num0,
@@ -48,22 +55,28 @@ namespace Gasolinera
                 btn_Num9,
             };
 
+            // A cada boton de la lista se le asigna un evento click
             foreach(Button boton in buttonList)
             {
                 boton.Click += Boton_Click;
             }
 
+            // Color con transparencia
             panel2.BackColor = Color.FromArgb(100, Color.Black);
-            //panel1.BackColor = Color.FromArgb(75, Color.Black);
+            // Se le pone una imagen al fondo del form
             this.BackgroundImage = Properties.Resources.fondo_bomba;
             this.BackgroundImageLayout = ImageLayout.Stretch;
 
-
+            // Se le pone el tipo de gasolina al label
             lbl_Bomba.Text = "Bomba de " + Index.listaBombas[idBomba].TipoGasolina;
 
+            // Se obtiene el precio de la gasolina
             string precioGasolina = Index.listaBombas[idBomba].PrecioGasolina.ToString();
+            // Si la gasolina no tiene parte decimal
+            // se le agrega .00
             precioGasolina = (precioGasolina.Contains(".")) ? precioGasolina : precioGasolina + ".00";
 
+            // Se le pone el precio de la gasolian al label
             lbl_Precio.Text = "Q" + precioGasolina;
 
             //port = new SerialPort("COM3", 9600); 
@@ -72,22 +85,30 @@ namespace Gasolinera
 
         private void Boton_Click(object sender, EventArgs e)
         {
+            // Se guarda el boton clicado
             Button boton = sender as Button;
 
+            // Mientras el textox tengo menos de 17 chars
             if(tbx_CantidadLitros.Text.Length < 17)
             {
+                // Se le suma al texto actual el
+                // numero que tiene el boton
                 tbx_CantidadLitros.Text += boton.Text;
             }
         }
 
+        // Se limpia el textbox que acumula los numeros
         private void btn_Clear_Click(object sender, EventArgs e)
         {
             tbx_CantidadLitros.Text = "";
         }
 
         private void btn_DEL_Click(object sender, EventArgs e)
-        {     if(!tbx_CantidadLitros.Text.Equals(""))
+        {     
+            // Si el textbox no esta vacio
+            if(!tbx_CantidadLitros.Text.Equals(""))
             {
+                // Se elimina el ultimo caracter
                 string cantidad = tbx_CantidadLitros.Text;
                 cantidad = cantidad.Substring(0, cantidad.Length - 1);
                 tbx_CantidadLitros.Text = cantidad;
@@ -96,23 +117,28 @@ namespace Gasolinera
 
         private void btn_LlenarBomba_Click(object sender, EventArgs e)
         {
+            // Si hay seleccionada un tipo de abastecimiento
             if (cbx_TanqueLleno.Checked || !tbx_CantidadLitros.Text.Equals(""))
             {
+                // Si se ingresa un nombre
                 if(!tbx_NombreCliente.Text.Equals(""))
                 {
-
                     string tipoCompra = "";
+                    // Si se selecciona el tanque lleno
                     if (cbx_TanqueLleno.Checked)
                     {
+                        // Se guarda el registro del tipo de abastecimiento
                         tipoCompra = "Tanque lleno";
                         Index.listaBombas[idBomba].ContadorBombaLlena += 1;
                     }
                     else
                     {
+                        // Se guarda el registro del tipo de abastecimiento
                         tipoCompra = "Prepago";
                         Index.listaBombas[idBomba].ContadorPrepago += 1;
                     }
 
+                    // Se agrega la venta a la lista de compras
                     Index.listaCompras.Add(
                         new Compra(
                             tbx_NombreCliente.Text,
@@ -121,44 +147,33 @@ namespace Gasolinera
                             tipoCompra
                             ));
 
+                    //int command;
+                    //command = 1;
+
+                    //var jsonCommand = JsonConvert.SerializeObject(new { led = command });
+                    //port.WriteLine(jsonCommand);
                 }
                 else
                 {
+                    // Se muestra un mensaje en caso de no
+                    // cumplir la condicion
                     MessageBox.Show("El nombre no puede estar vacio");
                 }
             }
             else
             {
-                if (tbx_NombreCliente.Text.Equals(""))
-                {
-                    MessageBox.Show("Escoja un tipo de llenado: Tanque lleno o prepago");
-                }
+                // Se muestra un mensaje en caso de no
+                // cumplir la condicion
+                MessageBox.Show("Escoja un tipo de llenado: Tanque lleno o prepago");
             }
-        }
-
-        int command;
-
-        private void on_Click(object sender, EventArgs e)
-        {
-
-            command = 1;
-
-            //var jsonCommand = JsonConvert.SerializeObject(new { led = command });
-            //port.WriteLine(jsonCommand);
-        }
-
-        private void off_Click(object sender, EventArgs e)
-        {
-            command = 0;
-
-            //var jsonCommand = JsonConvert.SerializeObject(new { led = command });
-            //port.WriteLine(jsonCommand);
         }
 
         private void cbx_TanqueLleno_Click(object sender, EventArgs e)
         {
+            // Si se selecciono el tanque lleno
             if (cbx_TanqueLleno.Checked)
             {
+                // Se apagan los botones del teclado
                 tbx_CantidadLitros.Enabled = false;
                 btn_Clear.Enabled = false;
                 btn_DEL.Enabled = false;
@@ -170,6 +185,7 @@ namespace Gasolinera
             }
             else
             {
+                // Si no, se activan los botones
                 tbx_CantidadLitros.Enabled = true;
                 btn_Clear.Enabled = true;
                 btn_DEL.Enabled = true;
