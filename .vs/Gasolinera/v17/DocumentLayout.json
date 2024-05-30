@@ -1,18 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Programming\\C#\\Gasolinera\\",
+  "WorkspaceRootPath": "C:\\Users\\mario\\Proyecto_Gasolinera\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|d:\\programming\\c#\\gasolinera\\gasolinera\\informedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|c:\\users\\mario\\proyecto_gasolinera\\gasolinera\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|solutionrelative:gasolinera\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|c:\\users\\mario\\proyecto_gasolinera\\gasolinera\\cambiarprecios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|solutionrelative:gasolinera\\cambiarprecios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|C:\\Users\\mario\\Proyecto_Gasolinera\\gasolinera\\interfazbomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|solutionrelative:gasolinera\\interfazbomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|c:\\users\\mario\\proyecto_gasolinera\\gasolinera\\bomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|solutionrelative:gasolinera\\bomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|c:\\users\\mario\\proyecto_gasolinera\\gasolinera\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|solutionrelative:gasolinera\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|c:\\users\\mario\\proyecto_gasolinera\\gasolinera\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|solutionrelative:gasolinera\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|C:\\Users\\mario\\Proyecto_Gasolinera\\gasolinera\\informedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|solutionrelative:gasolinera\\informedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|d:\\programming\\c#\\gasolinera\\gasolinera\\informedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|c:\\users\\mario\\proyecto_gasolinera\\gasolinera\\informedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|solutionrelative:gasolinera\\informedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|D:\\Programming\\C#\\Gasolinera\\gasolinera\\interfazbomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64583564-F540-46FF-B0B6-5DF02978FC32}|Gasolinera\\Gasolinera.csproj|solutionrelative:gasolinera\\interfazbomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +51,104 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Proyecto_Gasolinera\\Gasolinera\\Index.cs",
+              "RelativeDocumentMoniker": "Gasolinera\\Index.cs",
+              "ToolTip": "C:\\Users\\mario\\Proyecto_Gasolinera\\Gasolinera\\Index.cs",
+              "RelativeToolTip": "Gasolinera\\Index.cs",
+              "ViewState": "AQIAACUBAAAAAAAAAAAtwDoBAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T15:08:57.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CambiarPrecios.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Proyecto_Gasolinera\\Gasolinera\\CambiarPrecios.cs",
+              "RelativeDocumentMoniker": "Gasolinera\\CambiarPrecios.cs",
+              "ToolTip": "C:\\Users\\mario\\Proyecto_Gasolinera\\Gasolinera\\CambiarPrecios.cs",
+              "RelativeToolTip": "Gasolinera\\CambiarPrecios.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T15:05:55.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Compra.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Proyecto_Gasolinera\\Gasolinera\\Compra.cs",
+              "RelativeDocumentMoniker": "Gasolinera\\Compra.cs",
+              "ToolTip": "C:\\Users\\mario\\Proyecto_Gasolinera\\Gasolinera\\Compra.cs",
+              "RelativeToolTip": "Gasolinera\\Compra.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:27:38.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\mario\\Proyecto_Gasolinera\\Gasolinera\\Index.cs",
+              "RelativeDocumentMoniker": "Gasolinera\\Index.cs",
+              "ToolTip": "C:\\Users\\mario\\Proyecto_Gasolinera\\Gasolinera\\Index.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Gasolinera\\Index.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:06:57.059Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Bomba.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Proyecto_Gasolinera\\Gasolinera\\Bomba.cs",
+              "RelativeDocumentMoniker": "Gasolinera\\Bomba.cs",
+              "ToolTip": "C:\\Users\\mario\\Proyecto_Gasolinera\\Gasolinera\\Bomba.cs",
+              "RelativeToolTip": "Gasolinera\\Bomba.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:03:34.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InterfazBomba.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Proyecto_Gasolinera\\Gasolinera\\InterfazBomba.cs",
+              "RelativeDocumentMoniker": "Gasolinera\\InterfazBomba.cs",
+              "ToolTip": "C:\\Users\\mario\\Proyecto_Gasolinera\\Gasolinera\\InterfazBomba.cs",
+              "RelativeToolTip": "Gasolinera\\InterfazBomba.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAlwHEAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T23:03:40.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "InformeDatos.cs",
-              "DocumentMoniker": "D:\\Programming\\C#\\Gasolinera\\Gasolinera\\InformeDatos.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Proyecto_Gasolinera\\Gasolinera\\InformeDatos.cs",
               "RelativeDocumentMoniker": "Gasolinera\\InformeDatos.cs",
-              "ToolTip": "D:\\Programming\\C#\\Gasolinera\\Gasolinera\\InformeDatos.cs",
+              "ToolTip": "C:\\Users\\mario\\Proyecto_Gasolinera\\Gasolinera\\InformeDatos.cs",
               "RelativeToolTip": "Gasolinera\\InformeDatos.cs",
-              "ViewState": "AQIAAAEAAAAABgAAAADovzoAAAABAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAowFsAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T03:51:18.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "InformeDatos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Programming\\C#\\Gasolinera\\Gasolinera\\InformeDatos.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Proyecto_Gasolinera\\Gasolinera\\InformeDatos.cs",
               "RelativeDocumentMoniker": "Gasolinera\\InformeDatos.cs",
-              "ToolTip": "D:\\Programming\\C#\\Gasolinera\\Gasolinera\\InformeDatos.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\mario\\Proyecto_Gasolinera\\Gasolinera\\InformeDatos.cs [Dise\u00F1o]",
               "RelativeToolTip": "Gasolinera\\InformeDatos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T03:51:16.461Z",
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InterfazBomba.cs",
-              "DocumentMoniker": "D:\\Programming\\C#\\Gasolinera\\Gasolinera\\InterfazBomba.cs",
-              "RelativeDocumentMoniker": "Gasolinera\\InterfazBomba.cs",
-              "ToolTip": "D:\\Programming\\C#\\Gasolinera\\Gasolinera\\InterfazBomba.cs",
-              "RelativeToolTip": "Gasolinera\\InterfazBomba.cs",
-              "ViewState": "AQIAACYAAAAA7v////8TwLIAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T23:03:40.763Z",
-              "EditorCaption": ""
             }
           ]
         }

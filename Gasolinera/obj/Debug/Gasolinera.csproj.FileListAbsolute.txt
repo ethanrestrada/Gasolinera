@@ -54,14 +54,12 @@ C:\Users\mario\Proyecto_Gasolinera\Gasolinera\bin\Debug\System.Text.Encodings.We
 C:\Users\mario\Proyecto_Gasolinera\Gasolinera\bin\Debug\System.Text.Json.xml
 C:\Users\mario\Proyecto_Gasolinera\Gasolinera\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\mario\Proyecto_Gasolinera\Gasolinera\bin\Debug\System.ValueTuple.xml
-C:\Users\mario\Proyecto_Gasolinera\Gasolinera\obj\Debug\Gasolinera.csprojAssemblyReference.cache
 C:\Users\mario\Proyecto_Gasolinera\Gasolinera\obj\Debug\Gasolinera.Index.resources
 C:\Users\mario\Proyecto_Gasolinera\Gasolinera\obj\Debug\Gasolinera.InformeDatos.resources
 C:\Users\mario\Proyecto_Gasolinera\Gasolinera\obj\Debug\Gasolinera.InterfazBomba.resources
 C:\Users\mario\Proyecto_Gasolinera\Gasolinera\obj\Debug\Gasolinera.Properties.Resources.resources
 C:\Users\mario\Proyecto_Gasolinera\Gasolinera\obj\Debug\Gasolinera.csproj.GenerateResource.cache
 C:\Users\mario\Proyecto_Gasolinera\Gasolinera\obj\Debug\Gasolinera.csproj.CoreCompileInputs.cache
-C:\Users\mario\Proyecto_Gasolinera\Gasolinera\obj\Debug\Gasolinera.csproj.CopyComplete
 C:\Users\mario\Proyecto_Gasolinera\Gasolinera\obj\Debug\Gasolinera.exe
 C:\Users\mario\Proyecto_Gasolinera\Gasolinera\obj\Debug\Gasolinera.pdb
 D:\Programming\C#\Proyecto_Gasolinera\Gasolinera\obj\Debug\Gasolinera.csproj.AssemblyReference.cache
@@ -97,3 +95,6 @@ D:\Programming\C#\Proyecto_Gasolinera\Gasolinera\bin\Debug\System.Text.Json.xml
 D:\Programming\C#\Proyecto_Gasolinera\Gasolinera\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\Programming\C#\Proyecto_Gasolinera\Gasolinera\bin\Debug\System.ValueTuple.xml
 D:\Programming\C#\Proyecto_Gasolinera\Gasolinera\obj\Debug\Gasolinera.csproj.Up2Date
+C:\Users\mario\Proyecto_Gasolinera\Gasolinera\obj\Debug\Gasolinera.csproj.AssemblyReference.cache
+C:\Users\mario\Proyecto_Gasolinera\Gasolinera\obj\Debug\Gasolinera.csproj.Up2Date
+C:\Users\mario\Proyecto_Gasolinera\Gasolinera\obj\Debug\Gasolinera.CambiarPrecios.resources

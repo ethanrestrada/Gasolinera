@@ -14,6 +14,7 @@ namespace Gasolinera
         public double PrecioGasolina { get; set; }
         public int ContadorPrepago { get; set; }
         public int ContadorBombaLlena { get; set; }
+        public Bomba() { variableID = 0; }
 
         public Bomba(string tipoGasolina, double precioGasolina) {
             variableID = ++variableID;
@@ -22,6 +23,15 @@ namespace Gasolinera
             this.PrecioGasolina = precioGasolina;
             ContadorPrepago = 0;
             ContadorBombaLlena = 0;
+        }
+        public void BombaJson(string tipoGasolina, double precioGasolina, int contadorpre, int contadorllena)
+        {
+            variableID = ++variableID;
+            ID = variableID;
+            this.TipoGasolina = tipoGasolina;
+            this.PrecioGasolina = precioGasolina;
+            ContadorPrepago = contadorpre;
+            ContadorBombaLlena = contadorllena;
         }
     }
 }

@@ -1,0 +1,30 @@
+[
+  {
+    "ID": 2,
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "ContadorPrepago": 1,
+    "ContadorBombaLlena": 0
+  },
+  {
+    "ID": 4,
+    "TipoGasolina": "Super",
+    "PrecioGasolina": 11.4,
+    "ContadorPrepago": 0,
+    "ContadorBombaLlena": 0
+  },
+  {
+    "ID": 6,
+    "TipoGasolina": "Regular",
+    "PrecioGasolina": 11.0,
+    "ContadorPrepago": 0,
+    "ContadorBombaLlena": 0
+  },
+  {
+    "ID": 8,
+    "TipoGasolina": "Diesel",
+    "PrecioGasolina": 10.95,
+    "ContadorPrepago": 0,
+    "ContadorBombaLlena": 0
+  }
+]

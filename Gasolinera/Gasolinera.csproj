@@ -77,6 +77,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CambiarPrecios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CambiarPrecios.Designer.cs">
+      <DependentUpon>CambiarPrecios.cs</DependentUpon>
+    </Compile>
     <Compile Include="Compra.cs" />
     <Compile Include="Bomba.cs" />
     <Compile Include="Index.cs">
@@ -99,6 +105,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CambiarPrecios.resx">
+      <DependentUpon>CambiarPrecios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Index.resx">
       <DependentUpon>Index.cs</DependentUpon>
     </EmbeddedResource>

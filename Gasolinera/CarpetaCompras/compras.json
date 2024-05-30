@@ -48,5 +48,35 @@
     "TotalCompra": 0.0,
     "Hora": "12:43 PM",
     "Fecha": "2024-05-27"
+  },
+  {
+    "ID": 6,
+    "Nombre": "pedro",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 11.55,
+    "TipoCompra": "Prepago",
+    "TotalCompra": 0.0,
+    "Hora": "8:24 a. m.",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 7,
+    "Nombre": "Mario",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 11.55,
+    "TipoCompra": "Prepago",
+    "TotalCompra": 0.0,
+    "Hora": "8:26 a. m.",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 8,
+    "Nombre": "Mairo",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Prepago",
+    "TotalCompra": 0.0,
+    "Hora": "9:12 a. m.",
+    "Fecha": "2024-05-30"
   }
 ]

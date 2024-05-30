@@ -58,6 +58,29 @@ namespace Gasolinera
                 Console.WriteLine($"Error al guardar la compra en el archivo JSON: {ex.Message}");
             }
         }
+        private void GuardarBombaJson()
+        {
+            try
+            {
+                // Ruta común para guardar el archivo CSV en la carpeta de documentos del usuario
+                string rutaBase = AppDomain.CurrentDomain.BaseDirectory;
+                string carpetaDocumentos = rutaBase.Substring(0, rutaBase.LastIndexOf("\\bin\\Debug"));
+
+                // Quitamos la barra invertida al principio de la segunda parte de la ruta
+                string rutaArchivo = Path.Combine(carpetaDocumentos, @"CarpetaCompras\Bombas.json");
+
+                string contenidoJson = File.ReadAllText(rutaArchivo);
+
+                string listaJson = JsonConvert.SerializeObject(Index.listaBombas, Formatting.Indented);
+
+                File.WriteAllText(rutaArchivo, listaJson);
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error al guardar la compra en el archivo JSON: {ex.Message}");
+            }
+        }
         private void InterfazBomba_Load(object sender, EventArgs e)
         {
             // Se cambia el texto del form
@@ -177,6 +200,7 @@ namespace Gasolinera
                     Index.listaCompras.Add(compra);
                     
                     GuardarCompraEnJson();
+                    GuardarBombaJson();
 
                     //int command;
                     //command = 1;
