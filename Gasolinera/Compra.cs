@@ -24,7 +24,7 @@ namespace Gasolinera
             variableID = 0;
         }
 
-        public Compra(string nombre, string tipoGasolina, double precioGasolina, string tipoCompra) 
+        public Compra(string nombre, string tipoGasolina, double precioGasolina, string tipoCompra, double total) 
         {
             variableID = ++variableID;
             this.ID = variableID;
@@ -32,6 +32,7 @@ namespace Gasolinera
             this.TipoGasolina = tipoGasolina;
             this.PrecioGasolina = precioGasolina;
             this.TipoCompra = tipoCompra;
+            this.TotalCompra = total;
             
         }
         public void setID(int nuevoID)

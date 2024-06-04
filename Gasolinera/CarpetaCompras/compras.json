@@ -78,5 +78,1415 @@
     "TotalCompra": 0.0,
     "Hora": "9:12 a. m.",
     "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 9,
+    "Nombre": "hkhjkh",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:18 AM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 10,
+    "Nombre": "mnbnm",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:20 AM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 11,
+    "Nombre": "czxcz",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:34 AM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 12,
+    "Nombre": "jljlj",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:35 AM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 13,
+    "Nombre": "DSADAS",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:36 AM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 14,
+    "Nombre": "DASA",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Prepago",
+    "TotalCompra": 0.0,
+    "Hora": "11:37 AM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 15,
+    "Nombre": "DASA",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:37 AM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 16,
+    "Nombre": "JKJHJ",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:37 AM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 17,
+    "Nombre": "mnm",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:38 AM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 18,
+    "Nombre": ",bbmnb",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:40 AM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 19,
+    "Nombre": "jhgjhgj",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:45 AM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 20,
+    "Nombre": "4",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:47 AM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 21,
+    "Nombre": "LKJLJL",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:49 AM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 22,
+    "Nombre": "kjlkjlj",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:50 AM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 23,
+    "Nombre": "dasa",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:53 AM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 24,
+    "Nombre": "dsadada",
+    "TipoGasolina": "Super",
+    "PrecioGasolina": 11.4,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:53 AM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 25,
+    "Nombre": "dsadas",
+    "TipoGasolina": "Super",
+    "PrecioGasolina": 11.4,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:56 AM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 26,
+    "Nombre": "dsadasd",
+    "TipoGasolina": "Regular",
+    "PrecioGasolina": 11.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:56 AM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 27,
+    "Nombre": "dadsdas",
+    "TipoGasolina": "Super",
+    "PrecioGasolina": 11.4,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:01 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 28,
+    "Nombre": "dasdasd",
+    "TipoGasolina": "Diesel",
+    "PrecioGasolina": 10.95,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:01 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 29,
+    "Nombre": "dasdsa",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:08 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 30,
+    "Nombre": "dasdasd",
+    "TipoGasolina": "Regular",
+    "PrecioGasolina": 11.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:08 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 31,
+    "Nombre": "ssSDA",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:08 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 32,
+    "Nombre": "DSADSA",
+    "TipoGasolina": "Regular",
+    "PrecioGasolina": 11.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:08 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 33,
+    "Nombre": "dasda",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:09 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 34,
+    "Nombre": "dsadas",
+    "TipoGasolina": "Regular",
+    "PrecioGasolina": 11.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:09 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 35,
+    "Nombre": "dsadas",
+    "TipoGasolina": "Regular",
+    "PrecioGasolina": 11.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:09 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 36,
+    "Nombre": "dsadsad",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:10 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 37,
+    "Nombre": "asda",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:15 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 38,
+    "Nombre": "dsada",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:16 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 39,
+    "Nombre": "dada",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:17 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 40,
+    "Nombre": "dsada",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:20 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 41,
+    "Nombre": "dsadad",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:20 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 42,
+    "Nombre": "dasdas",
+    "TipoGasolina": "Regular",
+    "PrecioGasolina": 11.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:20 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 43,
+    "Nombre": "dadads",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:21 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 44,
+    "Nombre": "dadads",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:21 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 45,
+    "Nombre": "jlkjl",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:34 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 46,
+    "Nombre": "jhkj",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:35 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 47,
+    "Nombre": "jhkj",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:35 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 48,
+    "Nombre": "jhkj",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:36 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 49,
+    "Nombre": "jhkj",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:36 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 50,
+    "Nombre": "jhkj",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:36 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 51,
+    "Nombre": "jb",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:37 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 52,
+    "Nombre": "jb",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:37 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 53,
+    "Nombre": "jb",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:37 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 54,
+    "Nombre": "jb",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:37 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 55,
+    "Nombre": "jb",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:37 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 56,
+    "Nombre": "jb",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:37 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 57,
+    "Nombre": "jb",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:37 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 58,
+    "Nombre": "jb",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:37 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 59,
+    "Nombre": "jb",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:37 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 60,
+    "Nombre": "jb",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:37 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 61,
+    "Nombre": "hkjhkj",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:37 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 62,
+    "Nombre": "dsada",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:38 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 63,
+    "Nombre": "sadas",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:38 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 64,
+    "Nombre": "dasda",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:39 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 65,
+    "Nombre": "dasdas",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:39 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 66,
+    "Nombre": "dadad",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:40 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 67,
+    "Nombre": "ffff",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:41 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 68,
+    "Nombre": "lkjlkjlk",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:45 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 69,
+    "Nombre": "hkjn",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:47 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 70,
+    "Nombre": "dsda",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:48 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 71,
+    "Nombre": "LKJLL",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:52 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 72,
+    "Nombre": "kljlj",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:53 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 73,
+    "Nombre": "DDAS",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:54 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 74,
+    "Nombre": "lkjl",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:55 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 75,
+    "Nombre": "d",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "12:56 PM",
+    "Fecha": "2024-05-30"
+  },
+  {
+    "ID": 76,
+    "Nombre": "MARIO",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "10:13 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 77,
+    "Nombre": " mato",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "10:15 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 78,
+    "Nombre": " mato",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "10:15 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 79,
+    "Nombre": " mato",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "10:15 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 80,
+    "Nombre": " mato",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "10:15 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 81,
+    "Nombre": " mato",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "10:15 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 82,
+    "Nombre": " mato",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "10:15 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 83,
+    "Nombre": " mato",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "10:15 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 84,
+    "Nombre": " mato",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "10:15 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 85,
+    "Nombre": "MARIO",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "10:54 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 86,
+    "Nombre": "mario",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "10:58 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 87,
+    "Nombre": "hmg",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:00 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 88,
+    "Nombre": "a",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:01 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 89,
+    "Nombre": "gfd",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:03 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 90,
+    "Nombre": "popo",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:03 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 91,
+    "Nombre": "popo",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:03 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 92,
+    "Nombre": "popo",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:03 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 93,
+    "Nombre": "fd",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:04 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 94,
+    "Nombre": "dfg",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:06 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 95,
+    "Nombre": "t",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:07 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 96,
+    "Nombre": "t",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:07 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 97,
+    "Nombre": "t",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:08 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 98,
+    "Nombre": "t",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:08 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 99,
+    "Nombre": "dsgf",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:15 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 100,
+    "Nombre": "tr",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:18 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 101,
+    "Nombre": "A",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:32 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 102,
+    "Nombre": "p",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "11:35 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 103,
+    "Nombre": "Mario",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Prepago",
+    "TotalCompra": 0.0,
+    "Hora": "11:57 a. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 104,
+    "Nombre": "julio",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Prepago",
+    "TotalCompra": 0.0,
+    "Hora": "12:00 p. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 105,
+    "Nombre": "kiko",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Prepago",
+    "TotalCompra": 600.0,
+    "Hora": "12:04 p. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 106,
+    "Nombre": "gdf",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 69.0,
+    "Hora": "12:59 p. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 107,
+    "Nombre": "mip",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 109.47,
+    "Hora": "1:02 p. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 108,
+    "Nombre": "poi",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 162.08999999999998,
+    "Hora": "1:10 p. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 109,
+    "Nombre": "gfd",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 20.490000000000002,
+    "Hora": "1:13 p. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 110,
+    "Nombre": "mo",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 20.520000000000003,
+    "Hora": "1:15 p. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 111,
+    "Nombre": "mol",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 24.54,
+    "Hora": "1:16 p. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 112,
+    "Nombre": "mol",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 16.470000000000002,
+    "Hora": "1:16 p. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 113,
+    "Nombre": "fd",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 16.44,
+    "Hora": "1:18 p. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 114,
+    "Nombre": "fd",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 16.470000000000002,
+    "Hora": "1:19 p. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 115,
+    "Nombre": "fd",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 16.470000000000002,
+    "Hora": "1:19 p. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 116,
+    "Nombre": "as",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 20.490000000000002,
+    "Hora": "1:21 p. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 117,
+    "Nombre": "as",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 16.44,
+    "Hora": "1:26 p. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 118,
+    "Nombre": "as",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 68.97,
+    "Hora": "1:27 p. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 119,
+    "Nombre": "mario",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Prepago",
+    "TotalCompra": 300.0,
+    "Hora": "4:20 p. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 120,
+    "Nombre": "julio",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Prepago",
+    "TotalCompra": 600.0,
+    "Hora": "4:21 p. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 121,
+    "Nombre": "lopez",
+    "TipoGasolina": "Super",
+    "PrecioGasolina": 11.4,
+    "TipoCompra": "Prepago",
+    "TotalCompra": 91.2,
+    "Hora": "4:22 p. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 122,
+    "Nombre": "mlop",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 48.81,
+    "Hora": "4:32 p. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 123,
+    "Nombre": "mlop",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 48.839999999999996,
+    "Hora": "4:32 p. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 124,
+    "Nombre": "ppppp",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 36.66,
+    "Hora": "4:33 p. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 125,
+    "Nombre": "popo",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Prepago",
+    "TotalCompra": 240.0,
+    "Hora": "4:33 p. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 126,
+    "Nombre": "p",
+    "TipoGasolina": "Super",
+    "PrecioGasolina": 11.4,
+    "TipoCompra": "Prepago",
+    "TotalCompra": 91.2,
+    "Hora": "4:34 p. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 127,
+    "Nombre": "jiiiii",
+    "TipoGasolina": "Regular",
+    "PrecioGasolina": 11.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 20.867,
+    "Hora": "4:36 p. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 128,
+    "Nombre": "jiiiii",
+    "TipoGasolina": "Regular",
+    "PrecioGasolina": 11.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 16.412,
+    "Hora": "4:36 p. m.",
+    "Fecha": "2024-06-01"
+  },
+  {
+    "ID": 129,
+    "Nombre": "l",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 105.45,
+    "Hora": "1:20 p. m.",
+    "Fecha": "2024-06-02"
+  },
+  {
+    "ID": 130,
+    "Nombre": "pedro",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 202.56,
+    "Hora": "1:26 p. m.",
+    "Fecha": "2024-06-02"
+  },
+  {
+    "ID": 131,
+    "Nombre": "pedro",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 56.85,
+    "Hora": "1:27 p. m.",
+    "Fecha": "2024-06-02"
+  },
+  {
+    "ID": 132,
+    "Nombre": "pol",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 56.4,
+    "Hora": "1:27 p. m.",
+    "Fecha": "2024-06-02"
+  },
+  {
+    "ID": 133,
+    "Nombre": "lop",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 117.6,
+    "Hora": "2:00 p. m.",
+    "Fecha": "2024-06-02"
+  },
+  {
+    "ID": 134,
+    "Nombre": "pollip",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 77.1,
+    "Hora": "2:01 p. m.",
+    "Fecha": "2024-06-02"
+  },
+  {
+    "ID": 135,
+    "Nombre": "MARIO",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 463.10999999999996,
+    "Hora": "3:51 p. m.",
+    "Fecha": "2024-06-02"
+  },
+  {
+    "ID": 136,
+    "Nombre": "MARIO",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 0.0,
+    "Hora": "3:52 p. m.",
+    "Fecha": "2024-06-02"
+  },
+  {
+    "ID": 137,
+    "Nombre": "MARIO",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 524.49,
+    "Hora": "3:54 p. m.",
+    "Fecha": "2024-06-02"
+  },
+  {
+    "ID": 138,
+    "Nombre": "MARIO",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 216.0,
+    "Hora": "3:55 p. m.",
+    "Fecha": "2024-06-02"
+  },
+  {
+    "ID": 139,
+    "Nombre": "MARIO",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 283.2,
+    "Hora": "3:56 p. m.",
+    "Fecha": "2024-06-02"
+  },
+  {
+    "ID": 140,
+    "Nombre": "KIKO",
+    "TipoGasolina": "Super",
+    "PrecioGasolina": 11.4,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 620.616,
+    "Hora": "3:58 p. m.",
+    "Fecha": "2024-06-02"
+  },
+  {
+    "ID": 141,
+    "Nombre": "KIKO",
+    "TipoGasolina": "Super",
+    "PrecioGasolina": 11.4,
+    "TipoCompra": "Prepago",
+    "TotalCompra": 91.2,
+    "Hora": "4:00 p. m.",
+    "Fecha": "2024-06-02"
+  },
+  {
+    "ID": 142,
+    "Nombre": "POPO",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Prepago",
+    "TotalCompra": 240.0,
+    "Hora": "4:06 p. m.",
+    "Fecha": "2024-06-02"
+  },
+  {
+    "ID": 143,
+    "Nombre": "POPO",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 315.99,
+    "Hora": "4:07 p. m.",
+    "Fecha": "2024-06-02"
+  },
+  {
+    "ID": 144,
+    "Nombre": "VI",
+    "TipoGasolina": "Super",
+    "PrecioGasolina": 11.4,
+    "TipoCompra": "Prepago",
+    "TotalCompra": 171.0,
+    "Hora": "4:08 p. m.",
+    "Fecha": "2024-06-02"
+  },
+  {
+    "ID": 145,
+    "Nombre": "VI",
+    "TipoGasolina": "Super",
+    "PrecioGasolina": 11.4,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 83.0832,
+    "Hora": "4:08 p. m.",
+    "Fecha": "2024-06-02"
+  },
+  {
+    "ID": 146,
+    "Nombre": "basilio",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Prepago",
+    "TotalCompra": 240.0,
+    "Hora": "7:44 a. m.",
+    "Fecha": "2024-06-03"
+  },
+  {
+    "ID": 147,
+    "Nombre": "basilio",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 267.24,
+    "Hora": "7:44 a. m.",
+    "Fecha": "2024-06-03"
+  },
+  {
+    "ID": 148,
+    "Nombre": "ads",
+    "TipoGasolina": "V-Power",
+    "PrecioGasolina": 30.0,
+    "TipoCompra": "Tanque lleno",
+    "TotalCompra": 141.84,
+    "Hora": "7:45 a. m.",
+    "Fecha": "2024-06-03"
+  },
+  {
+    "ID": 149,
+    "Nombre": "pepe",
+    "TipoGasolina": "Super",
+    "PrecioGasolina": 11.4,
+    "TipoCompra": "Prepago",
+    "TotalCompra": 91.2,
+    "Hora": "7:46 a. m.",
+    "Fecha": "2024-06-03"
   }
 ]

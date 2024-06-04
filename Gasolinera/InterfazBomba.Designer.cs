@@ -55,6 +55,7 @@
             this.cbx_TanqueLleno = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.tb_Total = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -312,7 +313,6 @@
             this.tbx_Despachado.Location = new System.Drawing.Point(570, 253);
             this.tbx_Despachado.Multiline = true;
             this.tbx_Despachado.Name = "tbx_Despachado";
-            this.tbx_Despachado.ReadOnly = true;
             this.tbx_Despachado.Size = new System.Drawing.Size(100, 25);
             this.tbx_Despachado.TabIndex = 19;
             // 
@@ -321,7 +321,6 @@
             this.tbx_Litros.Location = new System.Drawing.Point(570, 295);
             this.tbx_Litros.Multiline = true;
             this.tbx_Litros.Name = "tbx_Litros";
-            this.tbx_Litros.ReadOnly = true;
             this.tbx_Litros.Size = new System.Drawing.Size(100, 25);
             this.tbx_Litros.TabIndex = 20;
             // 
@@ -353,6 +352,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.tb_Total);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.lbl_Precio);
@@ -373,12 +373,22 @@
             this.panel2.Size = new System.Drawing.Size(707, 416);
             this.panel2.TabIndex = 25;
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(390, 371);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(237, 37);
+            this.button1.TabIndex = 27;
+            this.button1.Text = "GENERAR";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // tb_Total
             // 
             this.tb_Total.Location = new System.Drawing.Point(570, 336);
             this.tb_Total.Multiline = true;
             this.tb_Total.Name = "tb_Total";
-            this.tb_Total.ReadOnly = true;
             this.tb_Total.Size = new System.Drawing.Size(100, 25);
             this.tb_Total.TabIndex = 26;
             // 
@@ -406,6 +416,7 @@
             this.MaximumSize = new System.Drawing.Size(747, 475);
             this.Name = "InterfazBomba";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.InterfazBomba_FormClosed);
             this.Load += new System.EventHandler(this.InterfazBomba_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -446,5 +457,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TextBox tb_Total;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button1;
     }
 }

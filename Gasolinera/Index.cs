@@ -10,6 +10,8 @@ using System.Windows.Forms;
 using System.Text.Json;
 using System.IO;
 using Newtonsoft.Json;
+using System.IO.Ports;
+using Newtonsoft.Json.Linq;
 
 namespace Gasolinera
 {
@@ -21,6 +23,14 @@ namespace Gasolinera
 
         // Crear lista de registros de compras
         public static List<Compra> listaCompras = new List<Compra>();
+        // Puerto para arduino
+        public static SerialPort port;
+        public static string litrostxt;
+        public static string totalText;
+        public static float despachadoValue;
+        public static float totalValue;
+        public static string despachadoText;
+        public static bool bandera1 = false;
 
         private void CargarComprasDesdeJson()
         {
@@ -53,7 +63,9 @@ namespace Gasolinera
                                 compra.Nombre, 
                                 compra.TipoGasolina, 
                                 compra.PrecioGasolina, 
-                                compra.TipoCompra
+                                compra.TipoCompra,
+                                compra.TotalCompra
+                              
                                 );
                             compraOBJ.Hora = compra.Hora;
                             compraOBJ.Fecha = compra.Fecha;
@@ -145,6 +157,9 @@ namespace Gasolinera
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            port = new SerialPort("COM7", 9600);
+            port.Open();
+
             CargarComprasDesdeJson();
             CargarBombasJson();
             // Asignar eventos clic a los botones de bombas
@@ -174,6 +189,8 @@ namespace Gasolinera
             //Asigna una imagen al fondo del form
             this.BackgroundImage = Properties.Resources.fondo_main;
             this.BackgroundImageLayout = ImageLayout.Stretch;
+
+
         }
 
         // Funcion para saber si un formulario ya esta abierto

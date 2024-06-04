@@ -12,6 +12,7 @@ using System.IO;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace Gasolinera
 {
@@ -19,14 +20,15 @@ namespace Gasolinera
     {
         // Indice de bomba dentro de la lista
         int idBomba = 0;
-        // Puerto para arduino
-        SerialPort port;
+        
         // Lista de botones del teclado
         private List<Button> buttonList;
 
         public InterfazBomba()
         {
             InitializeComponent();
+           
+            Index.port.DataReceived += SerialPortDataReceived;
         }
 
         // Funcion para obtener el ID traido
@@ -84,7 +86,13 @@ namespace Gasolinera
         private void InterfazBomba_Load(object sender, EventArgs e)
         {
             // Se cambia el texto del form
+            
+            
+            
             this.Text = "Bomba de " + Index.listaBombas[idBomba].TipoGasolina;
+            tbx_Despachado.Text = "";
+            tb_Total.Text = "";
+            tbx_Litros.Text = "";
 
             // Se llena la lista con los botones del teclado
             buttonList = new List<Button>
@@ -124,10 +132,9 @@ namespace Gasolinera
 
             // Se le pone el precio de la gasolian al label
             lbl_Precio.Text = "Q" + precioGasolina;
-
-            //port = new SerialPort("COM3", 9600); 
-            //port.Open();
         }
+
+        
 
         private void Boton_Click(object sender, EventArgs e)
         {
@@ -175,38 +182,61 @@ namespace Gasolinera
                     {
                         // Se guarda el registro del tipo de abastecimiento
                         tipoCompra = "Tanque lleno";
-                        Index.listaBombas[idBomba].ContadorBombaLlena += 1;
+                        
                     }
                     else
                     {
                         // Se guarda el registro del tipo de abastecimiento
                         tipoCompra = "Prepago";
-                        Index.listaBombas[idBomba].ContadorPrepago += 1;
+                        tbx_Despachado.Text= "Q"+(float.Parse(tbx_CantidadLitros.Text) * Index.listaBombas[idBomba].PrecioGasolina).ToString();
+                        tbx_Litros.Text = tbx_CantidadLitros.Text;
+                        tb_Total.Text = "Q"+(float.Parse(tbx_CantidadLitros.Text) * Index.listaBombas[idBomba].PrecioGasolina).ToString();
+                        button1.Text = "GUARDAR";
+
                     }
 
                     // Objeto compra
-                    var compra = new Compra(
-                        tbx_NombreCliente.Text,
-                        Index.listaBombas[idBomba].TipoGasolina,
-                        Index.listaBombas[idBomba].PrecioGasolina,
-                        tipoCompra
-                        );
+                   
 
-                    //Actualizar hora y fecha de compra
-                    compra.Hora = DateTime.Now.ToString("h:mm tt");
-                    compra.Fecha = DateTime.Now.ToString("yyyy-MM-dd");
+                   
 
-                    // Se agrega la venta a la lista de compras
-                    Index.listaCompras.Add(compra);
                     
-                    GuardarCompraEnJson();
-                    GuardarBombaJson();
+                    
+                    
 
-                    //int command;
-                    //command = 1;
+                    int command;
 
-                    //var jsonCommand = JsonConvert.SerializeObject(new { led = command });
-                    //port.WriteLine(jsonCommand);
+                    switch (idBomba)
+                    {
+                        case 0:
+                            command = 7;
+                            break;
+                        case 1:
+                            command = 8;
+                            break;
+                        case 2:
+                            command = 7;
+                            break;
+                        case 4:
+                            command = 8;
+                            break;
+
+                        default:
+                            command = 7; 
+                            break;
+                    }
+
+                    int tipo = (tipoCompra == "Tanque lleno") ? 1 : 0;
+                    float cantidad = (tipoCompra == "Prepago") ? float.Parse(tbx_CantidadLitros.Text) : 0;
+
+                    var jsonCommand = JsonConvert.SerializeObject(
+                        new {
+                            bomba = command,
+                            tipoLlenado = tipo,
+                            monto = cantidad
+                        }) ;
+                    
+                    Index.port.WriteLine(jsonCommand);
                 }
                 else
                 {
@@ -250,6 +280,151 @@ namespace Gasolinera
                     boton.Enabled = true;
                 }
             }
+        }
+       
+        private void SerialPortDataReceived(object sender, SerialDataReceivedEventArgs e)
+        {
+            try
+            {
+                
+                SerialPort sp = (SerialPort)sender;
+                string data = sp.ReadLine(); // Leer los datos del puerto serie
+
+                if (!string.IsNullOrEmpty(data))
+                {
+                    // Verificar si la cadena recibida contiene información
+                    JObject jsonData = JObject.Parse(data);
+                    MessageBox.Show(data);
+                    int segundos = (int)jsonData["segundos"];
+                    int milisegundos = (int)jsonData["milisegundos"];
+                    
+                    Index.litrostxt = segundos.ToString() + "." + milisegundos.ToString();
+                         Index.despachadoValue = float.Parse(Index.litrostxt) * float.Parse(Index.listaBombas[idBomba].PrecioGasolina.ToString());
+                    Index.despachadoText = "Q" + Index.despachadoValue.ToString("F2"); // Formatear a dos lugares decimales
+
+                    // Calcular y formatear el valor total
+                    Index.totalValue = Index.despachadoValue;
+                    Index.totalText = "Q" + Index.totalValue.ToString("F2");
+                    Index.bandera1 = true;
+                    // Formatear a dos lugares decimales
+
+                        // Actualizar los cuadros de texto
+                       
+                }
+                    
+
+                
+            }
+            catch (JsonReaderException ex)
+            {
+                // Manejar el caso de que la cadena no sea un JSON válido
+               
+            }
+            catch (Exception ex)
+            {
+                // Manejar cualquier otra excepción
+                
+            }
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (button1.Text == "GUARDAR")
+            {
+                if (cbx_TanqueLleno.Checked || !tbx_CantidadLitros.Text.Equals(""))
+                {
+                    // Si se ingresa un nombre
+                    if (!tbx_NombreCliente.Text.Equals(""))
+                    {
+                        if (!tbx_Litros.Text.Equals(""))
+                        {
+                            string tipoCompra = "";
+                            // Si se selecciona el tanque lleno
+                            if (cbx_TanqueLleno.Checked)
+                            {
+                                // Se guarda el registro del tipo de abastecimiento
+                                tipoCompra = "Tanque lleno";
+                                Index.listaBombas[idBomba].ContadorBombaLlena += 1;
+                            }
+                            else
+                            {
+                                // Se guarda el registro del tipo de abastecimiento
+                                tipoCompra = "Prepago";
+                                Index.listaBombas[idBomba].ContadorPrepago += 1;
+                            }
+
+                            // Objeto compra
+                            var compra = new Compra(
+                                tbx_NombreCliente.Text,
+                                Index.listaBombas[idBomba].TipoGasolina,
+                                Index.listaBombas[idBomba].PrecioGasolina,
+                                tipoCompra, double.Parse(tbx_Litros.Text) * Index.listaBombas[idBomba].PrecioGasolina);
+
+                            //Actualizar hora y fecha de compra
+                            compra.Hora = DateTime.Now.ToString("h:mm tt");
+                            compra.Fecha = DateTime.Now.ToString("yyyy-MM-dd");
+
+                            // Se agrega la venta a la lista de compras
+                            Index.listaCompras.Add(compra);
+
+                            GuardarCompraEnJson();
+                            GuardarBombaJson();
+                            MessageBox.Show("VENTA GUARDADA!");
+                            button1.Text = "GENERAR";
+                            tbx_Despachado.Text = "";
+                            tb_Total.Text = "";
+                            tbx_Litros.Text = "";
+                            Index.litrostxt ="";
+                            Index.totalText ="";
+                            Index.despachadoValue =0;
+                            Index.totalValue =0;
+                            Index.despachadoText ="";
+                            Index.bandera1 = false;
+
+                        }
+                        else
+                        {
+                            // Se muestra un mensaje en caso de no
+                            // cumplir la condicion
+                            MessageBox.Show("No se ha completado la orden");
+                        }
+
+
+
+                    }
+                    else
+                    {
+                        // Se muestra un mensaje en caso de no
+                        // cumplir la condicion
+                        MessageBox.Show("El nombre no puede estar vacio");
+                    }
+                }
+                else
+                {
+                    // Se muestra un mensaje en caso de no
+                    // cumplir la condicion
+                    MessageBox.Show("Escoja un tipo de llenado: Tanque lleno o prepago");
+                }
+            }
+            else if (button1.Text=="GENERAR")
+            {
+                if (Index.bandera1)
+                {
+                    tbx_Litros.Text = Index.litrostxt;
+                    tb_Total.Text = Index.totalText;
+                    tbx_Despachado.Text = Index.despachadoText;
+                    button1.Text = "GUARDAR";
+
+                }
+                
+            }
+        }
+
+        private void InterfazBomba_FormClosed(object sender, FormClosedEventArgs e)
+        {
+
+
+           
+
         }
     }
 }

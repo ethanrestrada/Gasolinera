@@ -33,5 +33,6 @@ namespace Gasolinera
             ContadorPrepago = contadorpre;
             ContadorBombaLlena = contadorllena;
         }
+
     }
 }
